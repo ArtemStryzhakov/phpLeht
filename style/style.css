@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(120, 120, 227);
+}
+
+.header {
+    background-color: rgb(136, 201, 236);
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    margin: 10px;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+    margin: 10px;
+}
+
+section {
+    background-color: lightsalmon;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 1px;
+}
+
+.harjut li {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+}
+
+.harjut a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.harjut a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+canvas {
+    width: 400px;
+    height: 500px;
+}
+
+#buttons {
+    background-color: aquamarine;
+    width: fit-content;
+    border: solid 1px blue;
+}
+
+#buttons img {
+    margin: auto;
+    width: 70px;
+}
+
+#field {
+    border: solid 1px blue;
+    left: 400px;
+    top: 280px;
+}
+#field img {
+    width: 100px;
+    padding: -10px;
+}
+
+#end {
+    position: absolute;
+    left: 900px;
+    top: 350px;
+}
+
+#choice {
+    background-color: aquamarine;
+    border: solid 1px blue;
+    width: fit-content;
+    position: absolute;
+    top: 300px;
+    left: 495px;
+    text-align: center;
+}
+
+#choice img {
+    width: 120px;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.rightcolumn {
+    background-color: #CC00CC;
+    width: fit-content;
+    border: solid 1px;
+}
+
+input[type=text] {
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+input[type=password] {
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+label {
+    text-align: center;
+    color: #F1F1F1;
+    font-size:20px;
+    text-decoration: lightgoldenrodyellow;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: greenyellow;
+    border-radius: 10%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    margin: 10px;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+    margin: 10px;
+}
+
+section {
+    background-color: lightsalmon;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 1px;
+}
+
+.harjut li {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+}
+
+.harjut a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.harjut a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+canvas {
+    width: 300px;
+    height: 500px;
+}
+
+#buttons {
+    background-color: aquamarine;
+    width: fit-content;
+    border: solid 1px blue;
+}
+
+#buttons img {
+    margin: auto;
+    width: 70px;
+}
+
+#field {
+    border: solid 1px blue;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+#field img {
+    width: 100px;
+    padding: -10px;
+}
+
+#end {
+    position: absolute;
+    left: 900px;
+    top: 350px;
+}
+
+#choice {
+    background-color: aquamarine;
+    border: solid 1px blue;
+    width: fit-content;
+    position: absolute;
+    top: 300px;
+    left: 495px;
+    text-align: center;
+}
+
+#choice img {
+    width: 120px;
+}

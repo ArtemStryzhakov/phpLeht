@@ -1,0 +1,39 @@
+body {
+	background-color: #CC00CC;
+	/*background: url('../img/wallpaper.jpg');*/
+	/*background: url('../img/wallpaper2.jpg');*/
+}
+
+h1{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+	background-color: #CC99FF;
+	width: 430px;
+	height: 800px;
+}
+
+input[type=button]{
+	background-color: chocolate;
+	color: #660066;
+}
+
+.canvas {
+	margin: auto;
+	margin-left: 800px;
+	margin-right: 900px;
+}
+
+.fbutton {
+	padding: 5px;
+	border: solid 1px black;
+	border-radius: 20%;
+	margin-left: 700px;
+	margin-right: 765px;
+}
+
+.divButton {
+	margin: auto;
+	width: 300px;
+}
