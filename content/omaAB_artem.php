@@ -16,7 +16,6 @@ global $yhendus;
 </head>
 <body>
 <div>
-    <p><?=$_SESSION['kasutaja']?> on sisse logitud</p>
     <form action="logout_oma.php" method="post">
         <input type="submit" value=" Logi välja" name="logout">
     </form>

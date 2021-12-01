@@ -21,14 +21,14 @@ if(!empty($_POST['login']) && !empty($_POST['pass'])) {
     $kask->bind_result($nimi, $onAdmin, $koduleht);
     $kask->execute();
 
-
-    if(isset($_REQUEST['muutmine']) && $_SESSION['onAdmin'] == 1){
-       header("Location: omaAB_admin.php");
+    if($kask-> fetch()){
+        if (isset($koduleht)) {
+            header("Location: $koduleht");
+        } else {
+            header("Location: puuLeht.php");
+            exit();
+        }
     }
-    else{
-        header("Location: omaAB_artem.php");
-    }
-
 }
 ?>
 <!DOCTYPE html>
